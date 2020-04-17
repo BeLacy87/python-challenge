@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333333;
+    background-color: rgb(188, 157, 209)}
+header {
+    background: #333333;}
+h1 {
+    position: relative;
+    color:#eee;
+    font_size: 28px;
+    left: 40%;}
+h2 {
+    font-size: 24px;}
+.landing_header{
+    padding: 25px;
+}
+.container {
+    background-color:rgb(188, 157, 209);}
+
+#contact-info,
+#landing-image {
+float: left;}
+
+#project-image {
+    width: 140px;
+    height: 140px;
+    margin-right: 10px;}
+#contact-info {
+  width: 30%;}
+#bio-name {
+    position: absolute;
+    top: 20px;}
+#figure {
+  position: relative;
+  background-color: orangered;}
+.footer {
+    
+    width: 100%;
+    height: 40px;
+    background-color: rgb(188, 157, 209);
+    color: white;
+    text-align: center;
+    }
+header{
+  background-color: orange;}
+#nav-button{
+  margin-left: 10px;
+  margin-right: 10px;}
+#second_box{
+    background-color:pink;
+    justify-self: right;
+    }
+.pink{
+    background-color: pink;
+}
+.light{
+    font-size: 15px;
+}

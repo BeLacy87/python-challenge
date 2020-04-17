@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Demo</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="web_design_hw.css">
+  
+</head>
+
+<body>
+  <!--navigation bar.  
+    
+    2.stay horizontal when small
+    3. fix dropdown-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+      <a class="navbar-brand" href="landing.html">Latitude</a>
+      
+      <ul class="navbar-nav">
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Visualization 1</a>
+            <a class="dropdown-item" href="#">Visualization 2</a>
+            <a class="dropdown-item" href="#">Visualization 3</a>
+            <a class="dropdown-item" href="#">Visualization 4</a>
+          </div>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="comparisons.html">Comparison <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="data.html">Data<span class="sr-only">(current)</span></a>
+        </li>
+      
+      </ul>
+  
+    </nav>
+
+
+  <!--main body-->
+  
+  <div class="container pt-5">
+    <div class = "row">
+      <div class = "col-md-7 bg-light text-dark">
+        <div class="mb-4 mt-4">
+          <h2 >Cloudiness</h2>
+        </div>
+        <hr>
+        <div class="row justify-content-center">
+          <img class="image-fluid" src="cloudiness.png" alt="visualization_3">
+          <p> A Data Analyst with a background in education and skills 
+        in advanced Excel, VBA, Python, MatPlotLib, R, SQL, as well 
+        as agile and scrum methodologies, and adult learning.  
+        Currently enrolled in the Data Analytics Bootcamp at the 
+        University of Richmond until July of 2020, and gaining
+        new skills and knowledge weekly. 
+          </p>
+        </div>
+      </div>
+
+      <div class= "col-md-4 offset-md-1 bg-light text-dark h-100">
+        <div class="mb-4 mt-4">
+          <h2 >Visualizations</h2>
+          <hr>
+        </div>
+        <div class="row justify-content-center">
+          <a href="visualization_1.html" target="_blank">
+          <img class="m-4" id="project-image"src="max_temp.png" alt="visualization_1" >
+          </a>
+          <a href="visualization_2.html" target="_blank">
+          <img class="m-4" id="project-image"src="humidity.png" alt="visualization_2">
+          </a>
+        </div>
+        <div class="row justify-content-center">
+          <a href="visualization_3.html" target="_blank">
+          <img class="m-4" id="project-image"src="cloudiness.png" alt="visualization_3" >
+          </a>
+          <a href="visualization_4.html" target="_blank">
+          <img class="m-4" id="project-image"src="wind_speed.png" alt="visualization_4">
+          </a>
+        </div>
+          
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+    
+</div>
+
+
+</body>
+
+</html>
